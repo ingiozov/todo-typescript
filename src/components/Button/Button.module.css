@@ -1,0 +1,4 @@
+button.active {
+  background-color: var(--blue-color);
+  color: #fff;
+}

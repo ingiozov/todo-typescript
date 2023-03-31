@@ -1,0 +1,45 @@
+.TodoItem {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.buttons button {
+  min-width: 48px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  color: var(--text-light);
+  box-shadow: none;
+}
+
+.editBlock {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .editBlock {
+    flex-direction: column;
+  }
+}
+
+.editBlock button {
+  border: 1px solid var(--bg-color);
+  box-shadow: none;
+}

@@ -1,0 +1,11 @@
+.header {
+  margin-bottom: 90px;
+}
+
+.header h1 {
+  margin-bottom: 30px;
+}
+
+.header p {
+  color: var(--text-dark);
+}

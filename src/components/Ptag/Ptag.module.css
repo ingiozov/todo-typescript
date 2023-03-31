@@ -1,0 +1,21 @@
+p {
+  line-height: 1;
+  letter-spacing: -0.03em;
+  user-select: none;
+  overflow: hidden;
+}
+
+.s {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.m {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.l {
+  font-weight: 700;
+  font-size: 28px;
+}

@@ -1,0 +1,18 @@
+.addTodoForm {
+  margin-bottom: 40px;
+}
+
+.addTodoForm label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.addTodoForm input::placeholder {
+  color: var(--text-light);
+}
+
+.addTodoForm svg {
+  font-size: 24px;
+  color: var(--text-light);
+}
