@@ -9,14 +9,12 @@ const Htag = ({ tag, children, ...props }: HtagProps): JSX.Element => {
           {children}
         </h1>
       )
-
     case 'h2':
       return (
         <h2 {...props} className={styles.h2}>
           {children}
         </h2>
       )
-
     default:
       return <></>
   }
